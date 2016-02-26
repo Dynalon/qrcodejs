@@ -1,0 +1,19 @@
+{
+  "name": "qrcodejs",
+  "version": "1.0.0",
+  "description": "QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM. QRCode.js has no dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dynalon/qrcodejs.git"
+  },
+  "author": "David Shim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dynalon/qrcodejs/issues"
+  },
+  "homepage": "https://github.com/Dynalon/qrcodejs#readme"
+}
