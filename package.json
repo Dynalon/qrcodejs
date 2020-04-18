@@ -2,9 +2,9 @@
   "name": "qrcodejs",
   "version": "1.0.0",
   "description": "QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM. QRCode.js has no dependencies.",
-  "main": "index.js",
+  "main": "index.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "uglify": "uglifyjs index.js > index.min.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Dynalon/qrcodejs/issues"
   },
-  "homepage": "https://github.com/Dynalon/qrcodejs#readme"
+  "homepage": "https://github.com/Dynalon/qrcodejs#readme",
+  "dependencies": {
+    "uglify-js": "^3.9.1"
+  }
 }
